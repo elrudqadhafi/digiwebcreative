@@ -88,7 +88,10 @@ const FooterComponent = () => {
         <Col>
           <h4>
             &copy; {new Date().getFullYear()}{" "}
-            <span className="fw-bold">Web-Pro Tech.</span>All rights reserved
+            <span className="fw-bold" style={{ color: "#0c79f6" }}>
+              Web-Pro Tech{" "}
+            </span>
+            || All rights reserved
           </h4>
         </Col>
       </Row>
