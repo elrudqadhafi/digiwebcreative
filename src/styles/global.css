@@ -327,6 +327,7 @@ body {
 
 .homepage .paket-website .plan-card {
   background-color: var(--abu-color);
+  border: 1px solid #0c79f64c;
   padding: 20px 20px;
   border-radius: 8px;
 }
@@ -997,6 +998,7 @@ footer .row:nth-child(2) h4 {
 
 .paket-page .plan-card {
   background-color: var(--abu-color);
+  border: 1px solid #0c79f64c;
   padding: 20px 20px;
   border-radius: 8px;
 }
