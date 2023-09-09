@@ -24,7 +24,7 @@ const NavbarComponent = () => {
   }, [navbarOpen])
 
   return (
-    <Navbar expand="lg" className="position-fixed" expanded={navbarOpen}>
+    <Navbar expand="lg" className="position-fixed top-0 " expanded={navbarOpen}>
       <Container>
         <Navbar.Brand>
           <img src={NavImg} alt="" />

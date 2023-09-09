@@ -35,6 +35,10 @@ body {
   background-color: var(--primary-color);
   width: 100%;
   z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
 }
 
 .navbar .navbar-brand {
