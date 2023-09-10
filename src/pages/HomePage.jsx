@@ -62,7 +62,7 @@ const HomePage = () => {
           name="description"
           content="Kami adalah penyedia layanan pembuatan website profesional di Pekanbaru. Dapatkan website modern, responsif, dan berkualitas tinggi untuk bisnis Anda. Hubungi kami untuk solusi digital terbaik."
         />
-        <link rel="canonical" href="http://localhost:5173/" />
+        <link rel="canonical" href="https://jasawebsitepekanbaru.site/" />
       </Helmet>
       <div
         className="whatsapp-floating"

@@ -1291,6 +1291,7 @@ input::placeholder {
 .about-page {
   background-color: var(--primary-color);
   padding-bottom: 70px;
+  overflow-x: hidden;
 }
 
 .about-page h3 {
@@ -1590,6 +1591,7 @@ input::placeholder {
 .syarat-ketentuan {
   padding-bottom: 100px;
   background-color: var(--primary-color);
+  overflow-x: hidden;
 }
 
 .syarat-ketentuan .row:nth-child(1) h3 {
