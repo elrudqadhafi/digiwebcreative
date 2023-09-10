@@ -10,6 +10,58 @@ const OrderPage = () => {
   const paket = location.state ? location.state.paket : null
   const navigate = useNavigate()
 
+  const [formData, setFormData] = useState({
+    fullName: "",
+    phoneNumber: "",
+    email: "",
+    address: "",
+  })
+
+  const handleFormChange = (e) => {
+    const { name, value } = e.target
+    setFormData({
+      ...formData,
+      [name]: value,
+    })
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+
+    // Validasi formulir sebelum mengirim ke WhatsApp
+    if (
+      !formData.fullName ||
+      !formData.phoneNumber ||
+      !formData.email ||
+      !formData.address
+    ) {
+      alert("Lengkapi Dulu Ya Data Kamu😊")
+      return
+    }
+
+    const nomorWhatsApp = "+6281364443540" // Gantilah dengan nomor WhatsApp Anda
+    const nama = formData.fullName
+    const harga = paket
+      ? paket.price.toLocaleString("id-ID", {
+          style: "currency",
+          currency: "IDR",
+        })
+      : ""
+    const pesan = `Halo, saya tertarik dengan paket ${
+      paket ? paket.title : "Paket"
+    } seharga ${harga}. Nama: ${nama}, HP: ${formData.phoneNumber}, Email: ${
+      formData.email
+    }, Alamat: ${formData.address}`
+
+    // Membuat URL WhatsApp dengan data yang diisi
+    const urlWhatsApp = `https://api.whatsapp.com/send?phone=${nomorWhatsApp}&text=${encodeURIComponent(
+      pesan
+    )}`
+
+    // Membuka URL WhatsApp di jendela baru
+    window.location.href = urlWhatsApp
+  }
+
   return (
     <div className="order-page w-100 min-vh-100">
       <Helmet>
@@ -36,13 +88,15 @@ const OrderPage = () => {
           <Col lg="8" xs="12">
             <div className="form-data">
               <h4>Informasi Pribadi</h4>
-              <form>
+              <form onSubmit={handleSubmit}>
                 <label>Nama Lengkap</label>
                 <input
                   required
                   placeholder="Masukkan Nama Lengkap"
                   type="text"
                   name="fullName"
+                  value={formData.fullName}
+                  onChange={handleFormChange}
                 />
                 <label>No Hp</label>
                 <input
@@ -50,6 +104,8 @@ const OrderPage = () => {
                   placeholder="Masukkan No Hp"
                   type="text"
                   name="phoneNumber"
+                  value={formData.phoneNumber}
+                  onChange={handleFormChange}
                 />
                 <label>Email</label>
                 <input
@@ -57,6 +113,8 @@ const OrderPage = () => {
                   placeholder="Masukkan Email"
                   type="email"
                   name="email"
+                  value={formData.email}
+                  onChange={handleFormChange}
                 />
                 <label>Alamat</label>
                 <input
@@ -64,7 +122,8 @@ const OrderPage = () => {
                   placeholder="Masukkan Alamat"
                   type="text"
                   name="address"
-                  className="mb-5"
+                  value={formData.address}
+                  onChange={handleFormChange}
                 />
               </form>
             </div>
@@ -101,7 +160,13 @@ const OrderPage = () => {
               ) : (
                 <p>Anda belum memilih paket.</p>
               )}
-              <button className="lanjut-bayar">LANJUTKAN</button>
+              <button
+                className="lanjut-bayar"
+                type="button"
+                onClick={handleSubmit}
+              >
+                LANJUTKAN
+              </button>
             </div>
           </Col>
         </Row>
