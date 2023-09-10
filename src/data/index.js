@@ -37,7 +37,7 @@ export const semuaPaket = [
   {
     id: 1,
     title: "Profesional",
-    price: 500000,
+    price: 5499000,
     description:
       "Cocok untuk para profesional, freelancer, atau Company Profile.",
     features: [
@@ -59,7 +59,7 @@ export const semuaPaket = [
   {
     id: 2,
     title: "Business",
-    price: 500000,
+    price: 10499000,
     description: "Paket lengkap untuk bisnis toko online.",
     features: [
       "Free Domain (.com / .net)",
@@ -80,7 +80,7 @@ export const semuaPaket = [
   {
     id: 3,
     title: "Personal",
-    price: 500000,
+    price: 1199000,
     description: "Cocok untuk personal branding dan blog kamu.",
     features: [
       "Free Domain ( .com / .net )",
@@ -98,7 +98,7 @@ export const semuaPaket = [
   {
     id: 4,
     title: "Landing Page",
-    price: 500000,
+    price: 999000,
     description:
       "Cocok untuk tujuan pemasaran, seperti peluncuran produk atau kampanye promosi.",
     features: [
@@ -115,7 +115,7 @@ export const semuaPaket = [
   {
     id: 5,
     title: "UMKM",
-    price: 500000,
+    price: 1500000,
     description:
       " Dirancang khusus untuk UMKM yang ingin tumbuh secara online.meningkatkan eksposur di dunia digital ",
     features: [

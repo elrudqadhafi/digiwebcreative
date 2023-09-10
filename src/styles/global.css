@@ -330,6 +330,7 @@ body {
   border: 1px solid #0c79f64c;
   padding: 20px 20px;
   border-radius: 8px;
+  transition: all 0.3s ease-in-out;
 }
 
 .homepage .paket-website .plan-card h4 {
@@ -350,8 +351,8 @@ body {
 }
 
 .homepage .paket-website .etiquet-price p {
-  color: var(--text-color);
-  font-size: 1.2rem;
+  color: #0c79f6;
+  font-size: 2rem;
   font-weight: 500;
 }
 
@@ -372,6 +373,10 @@ body {
   font-size: 1.2rem;
 }
 
+.homepage .paket-website .plan-card:hover {
+  transform: translateY(-10px);
+}
+
 .homepage .paket-website .btn-order {
   border: none;
   padding: 10px 40px;
@@ -381,6 +386,10 @@ body {
   border-radius: 5px;
   background: linear-gradient(40deg, #123277, #175fb3);
   color: #f3f4f5;
+}
+
+.homepage .paket-website .btn-order:hover {
+  transform: scale(0.95);
 }
 
 .homepage .paket-website .row:nth-child(3) {
@@ -405,6 +414,10 @@ body {
 .homepage .paket-website .paket-lengkap i {
   font-size: 24px;
   padding-left: 10px;
+}
+
+.homepage .paket-website .paket-lengkap:hover {
+  transform: scale(0.95);
 }
 
 /* STYLE HOMEPAGE PAKET */
@@ -1001,6 +1014,7 @@ footer .row:nth-child(2) h4 {
   border: 1px solid #0c79f64c;
   padding: 20px 20px;
   border-radius: 8px;
+  transition: all 0.3s ease-in-out;
 }
 
 .paket-page .plan-card h4 {
@@ -1022,8 +1036,8 @@ footer .row:nth-child(2) h4 {
 }
 
 .paket-page .etiquet-price p {
-  color: var(--text-color);
-  font-size: 1.2rem;
+  color: #0c79f6;
+  font-size: 2rem;
   font-weight: 500;
 }
 
@@ -1044,6 +1058,10 @@ footer .row:nth-child(2) h4 {
   font-size: 1.2rem;
 }
 
+.paket-page .plan-card:hover {
+  transform: translateY(-10px);
+}
+
 .paket-page .btn-order {
   border: none;
   padding: 10px 40px;
@@ -1053,6 +1071,14 @@ footer .row:nth-child(2) h4 {
   border-radius: 5px;
   background: linear-gradient(40deg, #123277, #175fb3);
   color: #f3f4f5;
+}
+
+.paket-page .btn-order:hover {
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -o-transform: scale(0.95);
 }
 /* STYLE PAKETPAGE */
 
@@ -1074,13 +1100,13 @@ footer .row:nth-child(2) h4 {
   border-radius: 8px;
 }
 
-.order-page .row:nth-child(1) .ringkasan {
+.order-page .row:nth-child(2) .ringkasan {
   padding: 20px;
   border-radius: 8px;
   background-color: var(--abu-color);
   color: var(--text-color);
-  width: 23%;
-  position: absolute;
+  /* width: 23%; */
+  /* position: absolute; */
 }
 
 .order-page .ringkasan h3 {
@@ -1159,6 +1185,7 @@ footer .row:nth-child(2) h4 {
   background: none;
   border: 1px solid #5252526e;
   margin-top: 50px;
+  color: var(--text-color);
 }
 
 input::placeholder {

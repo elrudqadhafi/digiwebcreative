@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { Helmet } from "react-helmet"
 import { Col, Container, Row } from "react-bootstrap"
 
@@ -8,7 +8,6 @@ import { useLocation, useNavigate } from "react-router-dom"
 const OrderPage = () => {
   const location = useLocation()
   const paket = location.state ? location.state.paket : null
-
   const navigate = useNavigate()
 
   return (
@@ -30,6 +29,44 @@ const OrderPage = () => {
                   Perusahaan.
                 </p>
               </div>
+            </div>
+          </Col>
+        </Row>
+        <Row className="pt-4">
+          <Col lg="8" xs="12">
+            <div className="form-data">
+              <h4>Informasi Pribadi</h4>
+              <form>
+                <label>Nama Lengkap</label>
+                <input
+                  required
+                  placeholder="Masukkan Nama Lengkap"
+                  type="text"
+                  name="fullName"
+                />
+                <label>No Hp</label>
+                <input
+                  required
+                  placeholder="Masukkan No Hp"
+                  type="text"
+                  name="phoneNumber"
+                />
+                <label>Email</label>
+                <input
+                  required
+                  placeholder="Masukkan Email"
+                  type="email"
+                  name="email"
+                />
+                <label>Alamat</label>
+                <input
+                  required
+                  placeholder="Masukkan Alamat"
+                  type="text"
+                  name="address"
+                  className="mb-5"
+                />
+              </form>
             </div>
           </Col>
           <Col lg="4" className="mt-lg-0 mt-4">
@@ -65,40 +102,6 @@ const OrderPage = () => {
                 <p>Anda belum memilih paket.</p>
               )}
               <button className="lanjut-bayar">LANJUTKAN</button>
-            </div>
-          </Col>
-        </Row>
-        <Row className="pt-4">
-          <Col lg="8" xs="12">
-            <div className="form-data">
-              <h4>Informasi Pribadi</h4>
-              <form action="">
-                <label>Nama Lengkap</label>
-                <input
-                  required=""
-                  placeholder="Masukkan Nama Lengkap"
-                  type="text"
-                />
-                <label>No Hp</label>
-                <input
-                  required=""
-                  placeholder="Enter phone number"
-                  type="telephone"
-                />
-                <label>Email</label>
-                <input
-                  required=""
-                  placeholder="Masukkan Email"
-                  type="telephone"
-                />
-                <label>Alamat</label>
-                <input
-                  required=""
-                  placeholder="Masukkan Alamat"
-                  type="telephone"
-                  className="mb-5"
-                />
-              </form>
             </div>
           </Col>
         </Row>
