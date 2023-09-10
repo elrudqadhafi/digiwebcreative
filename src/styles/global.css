@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 :root {
@@ -264,11 +264,27 @@ body {
     width: 100%;
     padding-top: 50px;
   }
+  .homepage .whatsapp-floating {
+    width: 80px;
+    height: 80px;
+  }
+  .homepage .whatsapp-floating i {
+    font-size: 40px;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .homepage .header-box h1 {
     padding-top: 130px;
+  }
+  .homepage .whatsapp-floating {
+    width: 60px;
+    height: 60px;
+    bottom: 15px;
+    right: 15px;
+  }
+  .homepage .whatsapp-floating i {
+    font-size: 37px;
   }
 }
 
