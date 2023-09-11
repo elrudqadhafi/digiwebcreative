@@ -10,10 +10,11 @@
   --primary-color: #fff;
   --secondary-color: #000;
   --text-color: #0a0a0a;
-  --abu-color: #f7f8f8;
+  --abu-color: #fafbff;
   --card-color: #fff;
   --accordion-color: #fff;
   --panel-color: #fff;
+  --other-color: #ececec68;
 }
 
 [data-theme="dark"] {
@@ -21,6 +22,7 @@
   --secondary-color: #fff;
   --text-color: #f3f4f5;
   --abu-color: #1018278b;
+  --other-color: #1018278b;
   --panel-color: #1018278b;
   --card-color: #101827c4;
   --accordion-color: #303030db;
@@ -829,7 +831,7 @@ body {
 }
 
 .homepage .all-fitur {
-  background-color: var(--abu-color);
+  background-color: var(--other-color);
 }
 
 .homepage .all-fitur .row:nth-child(2) {
@@ -1301,7 +1303,7 @@ input::placeholder {
   font-weight: 500;
   color: var(--text-color);
   text-align: center;
-  background-color: var(--abu-color);
+  background-color: var(--other-color);
 }
 
 .about-page h5 {
@@ -1596,7 +1598,7 @@ input::placeholder {
 
 .syarat-ketentuan .row:nth-child(1) h3 {
   padding-top: 150px;
-  background-color: var(--abu-color);
+  background-color: var(--other-color);
   padding-bottom: 100px;
   font-size: 2.2rem;
   font-weight: 500;
