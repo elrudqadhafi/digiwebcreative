@@ -17,14 +17,14 @@ function App() {
       <NavbarComponent />
 
       <Routes>
-        <Route path="/" Component={HomePage} />
-        <Route path="/pemesanan-pembayaran" Component={OrderPage} />
-        <Route path="/paket-website" Component={PaketPage} />
-        <Route path="/faq" Component={FaqPage} />
-        <Route path="/tutorial" Component={TutorialPage} />
-        <Route path="/tentang-perusahaan" Component={AboutPage} />
-        <Route path="/syarat-ketentuan" Component={SyaratKetentuanPage} />
-        <Route path="/kebijakan-privasi" Component={PrivacyPolicy} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/pemesanan-pembayaran" element={<OrderPage />} />
+        <Route path="/paket-website" element={<PaketPage />} />
+        <Route path="/faq" element={<FaqPage />} />
+        <Route path="/tutorial" element={<TutorialPage />} />
+        <Route path="/tentang-perusahaan" element={<AboutPage />} />
+        <Route path="/syarat-ketentuan" element={<SyaratKetentuanPage />} />
+        <Route path="/kebijakan-privasi" element={<PrivacyPolicy />} />
       </Routes>
 
       <FooterComponent />
