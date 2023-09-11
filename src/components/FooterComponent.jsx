@@ -56,7 +56,7 @@ const FooterComponent = () => {
           <h5 className="fw-bold">Perusahaan</h5>
           <div className="garis-1"></div>
           <li>
-            <Link to="/tentang-perusahaan">Tentang Kami</Link>
+            <Link to="/tentang-kami">Tentang Kami</Link>
           </li>
           <h5 className="fw-bold">Legal</h5>
           <div className="garis-1"></div>
