@@ -7,10 +7,6 @@ const AboutPage = () => {
     <div className="about-page w-100">
       <Helmet>
         <title>Tentang Kami - Web Pro Tech</title>
-        <link
-          rel="canonical"
-          href="https://jasawebsitepekanbaru.site/tentang-kami"
-        />
       </Helmet>
       <Row>
         <Col>

@@ -7,10 +7,6 @@ const PrivacyPolicy = () => {
     <div className="privacy-policy w-100 min-vh-100">
       <Helmet>
         <title>Kebijakan Privasi - Web Pro Tech</title>
-        <link
-          rel="canonical"
-          href="https://jasawebsitepekanbaru.site/kebijakan-privasi"
-        />
       </Helmet>
       <Container>
         <Row>

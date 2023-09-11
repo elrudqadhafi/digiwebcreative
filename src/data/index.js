@@ -8,27 +8,27 @@ import SosmedImg from "../assets/sosmedimg.png"
 export const navLinks = [
   {
     id: 1,
-    path: "",
+    path: "/",
     text: "Beranda",
   },
   {
     id: 2,
-    path: "paket-website",
+    path: "/paket-website",
     text: "Paket Web",
   },
   {
     id: 3,
-    path: "pemesanan-pembayaran",
+    path: "/pemesanan-pembayaran",
     text: "Pemesanan & Pembayaran",
   },
   {
     id: 4,
-    path: "tutorial",
+    path: "/tutorial",
     text: "Tutorial",
   },
   {
     id: 5,
-    path: "faq",
+    path: "/faq",
     text: "FAQ",
   },
 ]

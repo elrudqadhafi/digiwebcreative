@@ -66,7 +66,6 @@ const OrderPage = () => {
     <div className="order-page w-100 min-vh-100">
       <Helmet>
         <title>Order - Web Pro Tech</title>
-        <link rel="canonical" href="https://jasawebsitepekanbaru.site/order-webprotech" />
       </Helmet>
       <Container>
         <Row>

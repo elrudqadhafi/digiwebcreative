@@ -14,10 +14,6 @@ const TutorialPage = () => {
     <div className="tutorial">
       <Helmet>
         <title>Tutorial - Web Pro Tech</title>
-        <link
-          rel="canonical"
-          href="https://jasawebsitepekanbaru.site/tutorial"
-        />
       </Helmet>
       <Container>
         <Row className="d-flex align-items-center">

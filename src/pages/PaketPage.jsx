@@ -26,10 +26,6 @@ const PaketPage = () => {
     <div className="paket-page w-100 min-vh-100">
       <Helmet>
         <title>Paket Website - Web Pro Tech</title>
-        <link
-          rel="canonical"
-          href="https://jasawebsitepekanbaru.site/paket-website"
-        />
       </Helmet>
       <Container>
         <Row>

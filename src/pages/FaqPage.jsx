@@ -10,10 +10,6 @@ const FaqPage = () => {
     <div className="faq-page">
       <Helmet>
         <title>Temukan Pertanyaanmu Disini - Web Pro Tech</title>
-        <link
-          rel="canonical"
-          href="https://jasawebsitepekanbaru.site/pertanyaan"
-        />
       </Helmet>
       <Container>
         <Row className="d-flex align-items-center">

@@ -7,7 +7,6 @@ const SyaratKetentuanPage = () => {
     <div className="syarat-ketentuan">
       <Helmet>
         <title>Syarat Dan Ketentuan - Web Pro Tech</title>
-        <link rel="canonical" href="https://jasawebsitepekanbaru.site/syarat-ketentuan" />
       </Helmet>
       <Row>
         <Col>

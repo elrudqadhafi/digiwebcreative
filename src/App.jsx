@@ -22,7 +22,7 @@ function App() {
         <Route path="/paket-website" element={<PaketPage />} />
         <Route path="/faq" element={<FaqPage />} />
         <Route path="/tutorial" element={<TutorialPage />} />
-        <Route path="/tentang-perusahaan" element={<AboutPage />} />
+        <Route path="/tentang-kami" element={<AboutPage />} />
         <Route path="/syarat-ketentuan" element={<SyaratKetentuanPage />} />
         <Route path="/kebijakan-privasi" element={<PrivacyPolicy />} />
       </Routes>
