@@ -8,7 +8,7 @@ const ErrorPage = () => {
   return (
     <div className="eror">
       <h1>{error.statusText || error.message} !</h1>
-      <img src={ErrorImage} alt="" />
+      <img src={ErrorImage} alt="eror" loading="lazy" />
       <button>
         <Link to="/">Kembali</Link>
       </button>

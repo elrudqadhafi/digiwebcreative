@@ -24,7 +24,7 @@ const TutorialPage = () => {
         <Container>
           <Row className="d-flex align-items-center">
             <Col lg="6">
-              <img src={TutorImg} alt="tutorial-image" />
+              <img src={TutorImg} alt="tutorial-image" loading="lazy" />
             </Col>
             <Col lg="6">
               <h1>Tutorial Web-Pro Tech</h1>
@@ -45,7 +45,11 @@ const TutorialPage = () => {
                     <i className="ri-arrow-down-s-line"></i>
                   </h5>
                 </div>
-                <img src={TutorList1} alt="tutorial-list-image" />
+                <img
+                  src={TutorList1}
+                  alt="tutorial-list-image"
+                  loading="lazy"
+                />
               </div>
             </Col>
           </Row>
@@ -59,7 +63,11 @@ const TutorialPage = () => {
                     Order Melalui Admin <i className="ri-arrow-down-s-line"></i>
                   </h5>
                 </div>
-                <img src={TutorList2} alt="tutorial-list-image" />
+                <img
+                  src={TutorList2}
+                  alt="tutorial-list-image"
+                  loading="lazy"
+                />
               </div>
             </Col>
           </Row>

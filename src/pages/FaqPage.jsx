@@ -20,7 +20,7 @@ const FaqPage = () => {
         <Container>
           <Row className="d-flex align-items-center">
             <Col lg="6">
-              <img src={FaqImg} alt="faq-image" />
+              <img src={FaqImg} alt="faq-image" loading="lazy" />
             </Col>
             <Col lg="6">
               <h1>Perlu Bantuan?</h1>

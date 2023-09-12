@@ -115,7 +115,7 @@ const HomePage = () => {
           <Container>
             <Row>
               <Col lg="4">
-                <img src={DesignImg} alt="design image - freepik" />
+                <img src={DesignImg} alt="designimage-freepik" loading="lazy" />
                 <h4>Profesional Design</h4>
                 <p>
                   Website yang di Desain dengan optimal untuk meningkatkan
@@ -123,7 +123,11 @@ const HomePage = () => {
                 </p>
               </Col>
               <Col lg="4">
-                <img src={FastLoadingImg} alt="fast loading image - freepik" />
+                <img
+                  src={FastLoadingImg}
+                  alt="fastloadingimage-freepik"
+                  loading="lazy"
+                />
                 <h4>Fast Loading</h4>
                 <p>
                   Website yang kami buat telah dioptimalkan untuk kecepatan
@@ -132,7 +136,11 @@ const HomePage = () => {
                 </p>
               </Col>
               <Col lg="4">
-                <img src={FullSupportImg} alt="support image - freepik" />
+                <img
+                  src={FullSupportImg}
+                  alt="supportimage-freepik"
+                  loading="lazy"
+                />
                 <h4>Full Support</h4>
                 <p>
                   Tim kami selalu siap untuk melayani dan memberikan support
@@ -372,7 +380,7 @@ const HomePage = () => {
                 </li>
               </Col>
               <Col lg="5" className="order-lg-2 mobile-order">
-                <img src={PeopleCek} alt="webprotech" />
+                <img src={PeopleCek} alt="webprotech" loading="lazy" />
               </Col>
             </Row>
             <Row>
@@ -485,7 +493,7 @@ const HomePage = () => {
           <Container>
             <Row>
               <Col lg="6">
-                <img src={CompanyImg} alt="companyprofile" />
+                <img src={CompanyImg} alt="companyprofile" loading="lazy" />
               </Col>
               <Col lg="6">
                 <h5>Website Company Profile</h5>
@@ -518,14 +526,19 @@ const HomePage = () => {
                 </ul>
               </Col>
               <Col lg="6" className="order-lg-2 mobile-layanan">
-                <img src={TokoImg} alt="tokoonline" className="toko-img" />
+                <img
+                  src={TokoImg}
+                  alt="tokoonline"
+                  className="toko-img"
+                  loading="lazy"
+                />
               </Col>
             </Row>
           </Container>
           <Container>
             <Row>
               <Col lg="6">
-                <img src={LandingImg} alt="landingpage" />
+                <img src={LandingImg} alt="landingpage" loading="lazy" />
               </Col>
               <Col lg="6">
                 <h5>Website Landing Page</h5>
@@ -560,7 +573,7 @@ const HomePage = () => {
                 </ul>
               </Col>
               <Col lg="6" className="order-lg-2 mobile-layanan">
-                <img src={MaintenceImg} alt="perawatanwebsite" />
+                <img src={MaintenceImg} alt="perawatanwebsite" loading="lazy" />
               </Col>
             </Row>
           </Container>
@@ -580,7 +593,11 @@ const HomePage = () => {
                 return (
                   <Col lg="4" md="6" key={benefit.id}>
                     <div className="benefit-box">
-                      <img src={benefit.image} alt="allimagebenefil" />
+                      <img
+                        src={benefit.image}
+                        alt="allimagebenefil"
+                        loading="lazy"
+                      />
                       <h5>{benefit.title}</h5>
                       <p>{benefit.desc}</p>
                     </div>
