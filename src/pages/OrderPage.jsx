@@ -48,6 +48,8 @@ const OrderPage = () => {
       ? paket.price.toLocaleString("id-ID", {
           style: "currency",
           currency: "IDR",
+          minimumFractionDigits: 0,
+          maximumFractionDigits: 0,
         })
       : ""
     const pesan = `Halo, saya tertarik dengan paket ${
@@ -148,6 +150,8 @@ const OrderPage = () => {
                         {paket.price.toLocaleString("id-ID", {
                           style: "currency",
                           currency: "IDR",
+                          minimumFractionDigits: 0,
+                          maximumFractionDigits: 0,
                         })}
                       </span>
                     </h5>
@@ -159,6 +163,8 @@ const OrderPage = () => {
                         {paket.price.toLocaleString("id-ID", {
                           style: "currency",
                           currency: "IDR",
+                          minimumFractionDigits: 0,
+                          maximumFractionDigits: 0,
                         })}
                       </span>
                     </h5>
