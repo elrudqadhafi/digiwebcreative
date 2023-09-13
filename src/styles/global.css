@@ -714,13 +714,6 @@ body {
   .homepage .penjelasan-dua .row:nth-child(3) {
     padding: 20px 30px;
   }
-  .homepage .penjelasan-dua .row:nth-child(3) h5 {
-    font-size: 1.1rem;
-    text-align: left;
-  }
-  .homepage .penjelasan-dua .row:nth-child(3) h4 {
-    text-align: left;
-  }
 }
 /* responsive penjelasan satu, dua, dan tiga */
 
