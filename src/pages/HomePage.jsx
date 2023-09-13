@@ -228,6 +228,7 @@ const HomePage = () => {
                       <h4 className="text-center">{paket.title}</h4>
                       <p className=" desc text-center">{paket.description}</p>
                       <div className="etiquet-price">
+                        <span className="mb-5">Mulai Dari</span>
                         <p>
                           {paket.price.toLocaleString("id-ID", {
                             style: "currency",

@@ -38,10 +38,8 @@ export const semuaPaket = [
     id: 1,
     title: "Profesional",
     price: 5499000,
-    description:
-      "Cocok untuk para profesional, freelancer, atau Company Profile.",
     features: [
-      "Free Domain ( .com / .net )",
+      "Free Domain",
       "Free Design Website",
       "Optimasi SEO",
       "Free SSL certificate (https)",
@@ -60,9 +58,8 @@ export const semuaPaket = [
     id: 2,
     title: "Business",
     price: 10499000,
-    description: "Paket lengkap untuk bisnis toko online.",
     features: [
-      "Free Domain (.com / .net)",
+      "Free Domain",
       "Design sesuai permintaan",
       "SEO on page setup",
       "Free SSL certificate (https)",
@@ -81,9 +78,8 @@ export const semuaPaket = [
     id: 3,
     title: "Personal",
     price: 1199000,
-    description: "Cocok untuk personal branding dan blog kamu.",
     features: [
-      "Free Domain ( .com / .net )",
+      "Free Domain",
       "Kapasitas hosting 1000MB",
       "Free SSL certificate (https)",
       "Free Design Website",
@@ -99,10 +95,8 @@ export const semuaPaket = [
     id: 4,
     title: "Landing Page",
     price: 999000,
-    description:
-      "Cocok untuk tujuan pemasaran, seperti peluncuran produk atau kampanye promosi.",
     features: [
-      "Free Domain ( .com / .net )",
+      "Free Domain",
       "Free SSL certificate (https)",
       "1 Halaman",
       "Kapasitas hosting 500MB",
@@ -116,10 +110,8 @@ export const semuaPaket = [
     id: 5,
     title: "UMKM",
     price: 1500000,
-    description:
-      " Dirancang khusus untuk UMKM yang ingin tumbuh secara online.meningkatkan eksposur di dunia digital ",
     features: [
-      "Free Domain ( .com / .net )",
+      "Free Domain",
       "Free SSL certificate (https)",
       "4 Halaman",
       "Kapasitas hosting 500MB",
