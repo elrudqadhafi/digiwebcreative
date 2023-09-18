@@ -265,6 +265,16 @@ const HomePage = () => {
                   </Col>
                 )
               })}
+              <p className="teks-keterangan">
+                <span className="text-danger">*</span> Harga yang kami tampilkan
+                di sini adalah estimasi awal yang fleksibel. Kami yakin bahwa
+                dengan berdiskusi lebih lanjut tentang visi dan kebutuhan proyek
+                Anda, kami dapat menyusun penawaran harga yang sesuai dengan
+                tingkat kompleksitas dan fitur khusus yang Anda
+                inginkan.Silahkan
+                <a href="https://wa.me/6287735309554"> Hubungi Kami</a> untuk
+                info lebih lanjut.
+              </p>
             </Row>
             <Row>
               <Col>
