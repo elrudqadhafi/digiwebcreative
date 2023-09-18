@@ -16,11 +16,11 @@ export const navLinks = [
     path: "/paket-website",
     text: "Paket Web",
   },
-  {
-    id: 3,
-    path: "/pemesanan-pembayaran",
-    text: "Pemesanan & Pembayaran",
-  },
+  // {
+  //   id: 3,
+  //   path: "/pemesanan-pembayaran",
+  //   text: "Pemesanan & Pembayaran",
+  // },
   {
     id: 4,
     path: "/tutorial",
