@@ -195,6 +195,25 @@ const PaketPage = () => {
               </p>
             </Col>
           </Row>
+          <Row>
+            <Col>
+              <h5>Kualitas terjamin</h5>
+              <p>
+                Tim ahli kami yang berpengalaman dalam desain dan pengembangan
+                website mengutamakan setiap detail untuk memberikan situs web
+                yang estetis, responsif, dan fungsional. Kami mengintegrasikan
+                praktik terbaik dalam industri untuk memastikan peforma optimal,
+                keamanan dan kecepatan website anda. Dengan berfokus pada
+                kebutuhan dan tujuan bisnis anda,kami berkomitmen untuk
+                memberikan solusi website yang sesuai dengan visi dan kebutuhan
+                anda. Dengan dukungan layanan pelanggan yang responsif dan
+                peningkatan terus-menerus, Kami meyakinkan anda bahwa situs web
+                yang kami buat akan menjadi aset berharga yang mampu memperkuat
+                kehadiran online anda dan mampu bersaingan dipersaingan bisnis
+                yang ketat serta mencapai hasil yang memuaskan.
+              </p>
+            </Col>
+          </Row>
         </Container>
       </div>
       <FooterComponent />
