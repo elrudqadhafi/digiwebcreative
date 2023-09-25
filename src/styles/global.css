@@ -348,13 +348,23 @@ body {
   }
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 400px) {
   .homepage .header-box .konsultasi {
     padding: 10px 30px;
   }
 
   .homepage .header-box .create {
     padding: 12px 30px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .homepage .header-box .konsultasi {
+    padding: 10px 25px;
+  }
+
+  .homepage .header-box .create {
+    padding: 12px 25px;
   }
 }
 
@@ -843,6 +853,18 @@ body {
 
   .homepage .penjelasan-empat .row:nth-child(1) h3 {
     font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .homepage .penjelasan-empat .row:nth-child(1) h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .homepage .penjelasan-empat .row:nth-child(1) h3 {
+    font-size: 1.5rem;
   }
 }
 
