@@ -46,7 +46,7 @@ const PaketPage = () => {
           <Row>
             {ekonomisPaket.map((paket) => {
               return (
-                <Col key={paket.id} lg="4" md="6" className="mt-4">
+                <Col key={paket.id} lg="4" md="6" className="mt-4 m-md-auto mt-md-5">
                   <div className="plan-card">
                     <h4 className="text-center">{paket.title}</h4>
                     <p className=" desc text-center">{paket.description}</p>
@@ -92,7 +92,7 @@ const PaketPage = () => {
           <Row>
             {premiumPaket.map((paket) => {
               return (
-                <Col key={paket.id} lg="4" md="6" className="mt-4">
+                <Col key={paket.id} lg="4" md="6" className="mt-4 m-md-auto mt-md-5">
                   <div className="plan-card">
                     <h4 className="text-center">{paket.title}</h4>
                     <p className=" desc text-center">{paket.description}</p>

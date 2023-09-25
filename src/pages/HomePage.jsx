@@ -113,7 +113,7 @@ const HomePage = () => {
         <div className="info-panel m-auto">
           <Container>
             <Row>
-              <Col lg="4">
+              <Col lg="4" md="6">
                 <img src={DesignImg} alt="designimage-freepik" loading="lazy" />
                 <h4>Profesional Design</h4>
                 <p>
@@ -121,7 +121,7 @@ const HomePage = () => {
                   Kredibilitas bisnis Anda dan kepercayaan pengunjung.
                 </p>
               </Col>
-              <Col lg="4">
+              <Col lg="4" md="6">
                 <img
                   src={FastLoadingImg}
                   alt="fastloadingimage-freepik"
@@ -134,7 +134,7 @@ const HomePage = () => {
                   pengunjung.
                 </p>
               </Col>
-              <Col lg="4">
+              <Col lg="4" md="6" className="m-md-auto mt-md-5">
                 <img
                   src={FullSupportImg}
                   alt="supportimage-freepik"
@@ -162,7 +162,7 @@ const HomePage = () => {
               </p>
             </Row>
             <Row>
-              <Col lg="4" className="offset-lg-3">
+              <Col lg="4" md="6" className="offset-lg-3">
                 <p>
                   <i className="ri-check-line"></i>
                   Website Toko Online (E-commerce)
@@ -180,18 +180,18 @@ const HomePage = () => {
                   Website Portofolio
                 </p>
               </Col>
-              <Col lg="4">
+              <Col lg="4" md="6">
                 <p>
                   <i className="ri-check-line"></i>
                   Website Kesehatan dan Kecantikan
                 </p>
                 <p>
                   <i className="ri-check-line"></i>
-                  Website UMKM
+                  Website Komunitas
                 </p>
                 <p>
                   <i className="ri-check-line"></i>
-                  Website Komunitas
+                  Website UMKM
                 </p>
                 <p>
                   <i className="ri-check-line"></i>
@@ -497,7 +497,10 @@ const HomePage = () => {
         <div className="layanan-kami w-100 min-vh-100">
           <Container>
             <Row>
-              <h3 className="text-center">Layanan Web-Pro Tech</h3>
+              <h3 className="text-center">
+                Layanan <span>Digiwebcreative</span>
+              </h3>
+              <div className="garis"></div>
             </Row>
           </Container>
           <Container>

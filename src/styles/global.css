@@ -358,7 +358,7 @@ body {
   }
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 376px) {
   .homepage .header-box .konsultasi {
     padding: 10px 25px;
   }
@@ -809,6 +809,18 @@ body {
   .mobile-layanan {
     order: -1;
   }
+
+  .homepage .penjelasan .row:nth-child(1) h3 {
+    font-size: 1.9rem;
+  }
+
+  .homepage .penjelasan-dua .row:nth-child(1) h3 {
+    font-size: 1.9rem;
+  }
+
+  .homepage .penjelasan-tiga .row:nth-child(1) h3 {
+    font-size: 1.9rem;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -863,6 +875,18 @@ body {
 }
 
 @media screen and (max-width: 365px) {
+  .homepage .penjelasan .row:nth-child(1) h3 {
+    font-size: 1.7rem;
+  }
+
+  .homepage .penjelasan-dua .row:nth-child(1) h3 {
+    font-size: 1.7rem;
+  }
+
+  .homepage .penjelasan-tiga .row:nth-child(1) h3 {
+    font-size: 1.7rem;
+  }
+
   .homepage .penjelasan-empat .row:nth-child(1) h3 {
     font-size: 1.5rem;
   }
@@ -883,8 +907,21 @@ body {
 .homepage .layanan-kami .row:nth-child(1) h3 {
   font-size: 2.2rem;
   font-weight: 500;
+  padding-bottom: 10px;
   color: var(--text-color);
   font-family: 'Montserrat', sans-serif;
+}
+
+.homepage .layanan-kami .row:nth-child(1) .garis {
+  width: 170px;
+  height: 4px;
+  border-radius: 8px;
+  background-color: #ff7700;
+  margin: auto;
+}
+
+.homepage .layanan-kami h3 span {
+  color: #0c79f6;
 }
 
 .homepage .layanan-kami .container:nth-child(3) .toko-img {
@@ -1008,6 +1045,16 @@ body {
   }
 }
 
+@media screen and (max-width: 376px) {
+  .homepage .benefit {
+    padding: 10px;
+  }
+
+  .homepage .benefit .row:nth-child(1) h3 {
+    font-size: 1.45rem;
+  }
+}
+
 /* STYLE HOMEPAGE BENEFIT */
 
 /* STYLE HOMEPAGE PROMO */
@@ -1066,7 +1113,12 @@ body {
   transform: scale(0.9);
 }
 
-/* RESPONSIVE PROMO */
+@media screen and (max-width: 992px) {
+  .homepage .all-fitur .row:nth-child(1) h3 {
+    font-size: 1.7rem;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .homepage .all-fitur {
     padding: 10px;
