@@ -7,11 +7,13 @@ import FaqComponent from "../components/FaqComponent"
 import NavbarComponent from "../components/NavbarComponent"
 import ScrollToTop from "../components/ScrollToTop"
 import FooterComponent from "../components/FooterComponent"
+import WhatsappCompnent from "../components/WhatsappCompnent"
 
 const FaqPage = () => {
   return (
     <>
       <NavbarComponent />
+      <WhatsappCompnent />
       <ScrollToTop />
       <div className="faq-page">
         <Helmet>

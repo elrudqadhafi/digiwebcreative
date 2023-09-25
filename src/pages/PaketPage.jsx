@@ -1,11 +1,12 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { Col, Container, Row } from "react-bootstrap"
-import { semuaPaket } from "../data"
+import { ekonomisPaket, premiumPaket } from "../data"
 import { useNavigate } from "react-router-dom"
 import FooterComponent from "../components/FooterComponent"
 import NavbarComponent from "../components/NavbarComponent"
 import ScrollToTop from "../components/ScrollToTop"
+import WhatsappCompnent from "../components/WhatsappCompnent"
 
 const PaketPage = () => {
   let navigate = useNavigate()
@@ -30,19 +31,66 @@ const PaketPage = () => {
   return (
     <>
       <NavbarComponent />
+      <WhatsappCompnent />
       <ScrollToTop />
-      <div className="paket-page w-100 min-vh-100">
+      <div className="paket-page">
         <Helmet>
           <title>Paket Website - Web Pro Tech</title>
         </Helmet>
         <Container>
           <Row>
             <Col>
-              <h3>Paket Website</h3>
+              <h3>Paket Ekonomis</h3>
             </Col>
           </Row>
           <Row>
-            {semuaPaket.map((paket) => {
+            {ekonomisPaket.map((paket) => {
+              return (
+                <Col key={paket.id} lg="4" md="6" className="mt-4">
+                  <div className="plan-card">
+                    <h4 className="text-center">{paket.title}</h4>
+                    <p className=" desc text-center">{paket.description}</p>
+                    <div className="etiquet-price">
+                      <span>Mulai Dari</span>
+                      <p>
+                        {paket.price.toLocaleString("id-ID", {
+                          style: "currency",
+                          currency: "IDR",
+                          minimumFractionDigits: 0,
+                          maximumFractionDigits: 0,
+                        })}
+                      </p>
+                    </div>
+                    <button
+                      className="btn-order mt-3 mb-3"
+                      onClick={() => handleOrderClick(paket)}
+                    >
+                      Beli Paket
+                    </button>
+                    <div className="benefits-list">
+                      <ul>
+                        {paket.features.map((feature, index) => {
+                          return (
+                            <li key={index}>
+                              <i className="ri-checkbox-circle-line"></i>
+                              {feature}
+                            </li>
+                          )
+                        })}
+                      </ul>
+                    </div>
+                  </div>
+                </Col>
+              )
+            })}
+          </Row>
+          <Row>
+            <Col>
+              <h3>Paket Premium</h3>
+            </Col>
+          </Row>
+          <Row>
+            {premiumPaket.map((paket) => {
               return (
                 <Col key={paket.id} lg="4" md="6" className="mt-4">
                   <div className="plan-card">

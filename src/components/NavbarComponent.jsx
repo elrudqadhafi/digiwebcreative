@@ -27,8 +27,8 @@ const NavbarComponent = () => {
     <Navbar expand="lg" className="position-fixed top-0 " expanded={navbarOpen}>
       <Container>
         <Navbar.Brand>
-          <img src={NavImg} alt="" />
-          Web<span>Pro</span>Tech
+          {/* <img src={NavImg} alt="" /> */}
+          DIGI<span>WEB</span>CREATIVE
         </Navbar.Brand>
         <DarkModeComponent />
         <Navbar.Toggle

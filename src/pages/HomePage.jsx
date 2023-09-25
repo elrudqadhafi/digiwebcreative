@@ -6,7 +6,7 @@ import { Col, Container, Row } from "react-bootstrap"
 import NavbarComponent from "../components/NavbarComponent"
 import FooterComponent from "../components/FooterComponent"
 
-import { benefit, semuaPaket } from "../data"
+import { benefit, ekonomisPaket } from "../data"
 
 import Animation from "../lottie/animasidigital.json"
 import DesignImg from "../assets/designkreatif1.png"
@@ -18,6 +18,7 @@ import TokoImg from "../assets/tokoonline.png"
 import LandingImg from "../assets/landingpage.png"
 import MaintenceImg from "../assets/maintanance.png"
 import ScrollToTop from "../components/ScrollToTop"
+import WhatsappCompnent from "../components/WhatsappCompnent"
 
 const HomePage = () => {
   const phoneNumber = "+6281364443540"
@@ -51,8 +52,6 @@ const HomePage = () => {
 
   let navigate = useNavigate()
 
-  const tigaPaket = semuaPaket.slice(0, 3)
-
   const handlePaketClick = (paket) => {
     navigate("/pemesanan-pembayaran", { state: { paket } })
   }
@@ -75,18 +74,13 @@ const HomePage = () => {
             content="jasa website, jasawebsitepekanbaru, jasa pembuatan website, jasa pembuatan website pekanbaru, jasa web"
           />
         </Helmet>
-        <div
-          className="whatsapp-floating"
-          onClick={() => openWhatsAppChat(message1)}
-        >
-          <i className="ri-whatsapp-line"></i>
-        </div>
+        <WhatsappCompnent />
         <header className="w-100 overflow-hidden">
           <Container>
             <Row className="header-box">
               <Col lg="6">
                 <h1 className="mb-3">
-                  Wujudkan <span> Visi Digitalmu</span> <br /> Bersama kami
+                  Wujudkan <span> Visi Digitalmu</span> Bersama kami
                 </h1>
                 <p className="mb-4">
                   "Jasa Pembuatan Webiste" Merupakan layanan yang kami tawarkan.
@@ -168,7 +162,7 @@ const HomePage = () => {
               </p>
             </Row>
             <Row>
-              <Col lg="3" className="offset-lg-3">
+              <Col lg="4" className="offset-lg-3">
                 <p>
                   <i className="ri-check-line"></i>
                   Website Toko Online (E-commerce)
@@ -221,7 +215,7 @@ const HomePage = () => {
               <h3 className="text-center">Paket Website</h3>
             </Row>
             <Row>
-              {tigaPaket.map((paket) => {
+              {ekonomisPaket.map((paket) => {
                 return (
                   <Col
                     key={paket.id}

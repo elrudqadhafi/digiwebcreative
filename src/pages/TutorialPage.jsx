@@ -9,6 +9,7 @@ import TutorList2 from "../assets/tutoriallist2.png"
 import NavbarComponent from "../components/NavbarComponent"
 import ScrollToTop from "../components/ScrollToTop"
 import FooterComponent from "../components/FooterComponent"
+import WhatsappCompnent from "../components/WhatsappCompnent"
 
 const TutorialPage = () => {
   let navigate = useNavigate()
@@ -16,6 +17,7 @@ const TutorialPage = () => {
   return (
     <>
       <NavbarComponent />
+      <WhatsappCompnent />
       <ScrollToTop />
       <div className="tutorial">
         <Helmet>
