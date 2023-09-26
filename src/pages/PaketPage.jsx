@@ -130,7 +130,7 @@ const PaketPage = () => {
               )
             })}
           </Row>
-          <Row>
+          <Row className="mt-5 pt-3">
             <Col>
               <h3>Maintanance Website</h3>
             </Col>
