@@ -1267,7 +1267,7 @@ footer .row:nth-child(1) .garis-1 {
 
 footer li {
   list-style: none;
-  padding-top: 1px;
+  padding-top: 15px;
 }
 
 footer li a:hover {
