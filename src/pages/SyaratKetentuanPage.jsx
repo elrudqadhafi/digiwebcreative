@@ -12,7 +12,7 @@ const SyaratKetentuanPage = () => {
       <ScrollToTop />
       <div className="syarat-ketentuan">
         <Helmet>
-          <title>Syarat Dan Ketentuan - Web Pro Tech</title>
+          <title>Syarat Dan Ketentuan - Digi Web Creative</title>
         </Helmet>
         <Row>
           <Col>
@@ -26,28 +26,28 @@ const SyaratKetentuanPage = () => {
               <ul>
                 <li>
                   Tata Cara Penggunaan merupakan dasar yang sangat penting dalam
-                  hubungan Anda dengan WebProTech. Dengan memanfaatkan layanan
-                  dari WebProTech, Anda dengan ini menyetujui semua Ketentuan
+                  hubungan Anda dengan Digi Web Creative. Dengan memanfaatkan layanan
+                  dari Digi Web Creative, Anda dengan ini menyetujui semua Ketentuan
                   dan Kebijakan Layanan (Tata Cara Penggunaan) yang tertulis
                   dalam dokumen ini.
                 </li>
                 <li>
-                  WebProTech menawarkan layanan ini kepada individu, bisnis,
+                  Digi Web Creative menawarkan layanan ini kepada individu, bisnis,
                   serta organisasi (disebut sebagai 'Pihak Pertama' atau 'Anda'
                   dalam dokumen ini). Dengan memanfaatkan layanan dari
-                  WebProTech, Anda telah memberikan persetujuan dan bersedia
+                  Digi Web Creative, Anda telah memberikan persetujuan dan bersedia
                   untuk mematuhi semua Persyaratan Layanan. Apabila Anda tidak
                   sepakat untuk mematuhi Persyaratan Layanan, Anda diharapkan
                   untuk menghentikan akun Anda dengan segera dan tidak diizinkan
                   menggunakan atau mencoba menggunakan layanan yang ditawarkan
-                  oleh WebProTech."
+                  oleh Digi Web Creative."
                 </li>
               </ul>
               <h6 className="mt-5">2. Defenisi</h6>
               <ul>
                 <li>Dalam Dokumen Ini :</li>
                 <li>
-                  "Kami," "kami," atau "pengembang" mengacu pada WebProTech.
+                  "Kami," "kami," atau "pengembang" mengacu pada Digi Web Creative.
                 </li>
                 <li>""Klien" atau "Anda" mengacu pada pemesan jasa kami.</li>
               </ul>
@@ -75,13 +75,13 @@ const SyaratKetentuanPage = () => {
                 <li>
                   Anda bertanggung jawab sepenuhnya atas penggunaan Layanan ini
                   yang Anda lakukan. Informasi, produk, atau layanan yang
-                  disediakan di luar kendali kami oleh WebProTech, dan kami
+                  disediakan di luar kendali kami oleh Digi Web Creative, dan kami
                   tidak terlibat, tidak menyediakan, atau menjamin informasi,
                   produk, atau layanan yang dapat diakses melalui Akun Media
                   Sosial Anda.
                 </li>
                 <li>
-                  Penggunaan layanan dari WebProTech berarti Anda setuju untuk
+                  Penggunaan layanan dari Digi Web Creative berarti Anda setuju untuk
                   menerima kewajiban atas segala dampak buruk yang mungkin
                   timbul akibat tindakan atau kelalaian Anda dalam menggunakan
                   layanan ini. Jenis dampak ini mencakup pencemaran nama baik,
@@ -97,8 +97,8 @@ const SyaratKetentuanPage = () => {
                 untuk mengikuti Ketentuan Layanan ini. Semua tindakan yang
                 melanggar Ketentuan Layanan ini atau peraturan lain yang
                 berlaku, termasuk peraturan dan kebijakan di bawahnya, dapat
-                menjadi alasan bagi WebProTech untuk menangguhkan atau
-                menghentikan akun Anda. Anda menyetujui bahwa WebProTech
+                menjadi alasan bagi Digi Web Creative untuk menangguhkan atau
+                menghentikan akun Anda. Anda menyetujui bahwa Digi Web Creative
                 memiliki hak, dengan atau tanpa pemberitahuan, untuk
                 menangguhkan atau menghentikan akun Anda setelah terjadinya
                 pelanggaran pertama atau berulang dari salah satu hal berikut:
@@ -133,7 +133,7 @@ const SyaratKetentuanPage = () => {
               <li className="judul-kecil mt-4">Kebijakan Privasi</li>
               <ol type="i">
                 <li>
-                  Kami, WebProTech, akan menghormati privasi data Anda dengan
+                  Kami, Digi Web Creative, akan menghormati privasi data Anda dengan
                   sepenuhnya dan tidak akan membagikan informasi pribadi
                   pelanggan kepada pihak ketiga tanpa izin tertulis terlebih
                   dahulu dari pihak yang bersangkutan, kecuali dalam situasi
@@ -153,7 +153,7 @@ const SyaratKetentuanPage = () => {
               <ul>
                 <li>
                   Hukum yang berlaku adalah hukum yang berlaku di wilayah
-                  yurisdiksi tempat perusahaan WebProTech terdaftar dan
+                  yurisdiksi tempat perusahaan Digi Web Creative terdaftar dan
                   beroperasi. Semua aspek dan sengketa yang timbul dari atau
                   terkait dengan penggunaan layanan kami akan diatur oleh hukum
                   yang berlaku di wilayah tersebut.
@@ -204,11 +204,11 @@ const SyaratKetentuanPage = () => {
                   belah pihak, apabila ada.
                 </li>
                 <li>
-                  Prosedur transaksi yang telah ditetapkan oleh WebProTech harus
+                  Prosedur transaksi yang telah ditetapkan oleh Digi Web Creative harus
                   diikuti oleh para Pembeli. Pembayaran dilakukan oleh Pembeli
                   menggunakan metode pembayaran yang telah sebelumnya dipilih,
                   dan setelah semua langkah dalam transaksi jual beli di
-                  platform WebProTech selesai, kami akan melanjutkan dengan
+                  platform Digi Web Creative selesai, kami akan melanjutkan dengan
                   proses pengerjaan website.
                 </li>
                 <li>
@@ -216,14 +216,14 @@ const SyaratKetentuanPage = () => {
                   lama dalam batas waktu 3 hari) setelah Pembeli melakukan
                   pemesanan layanan. Jika dalam batas waktu tersebut Pembeli
                   belum melunasi pembayaran atau memberikan konfirmasi
-                  pembayaran, WebProTech berhak untuk membatalkan transaksi yang
+                  pembayaran, Digi Web Creative berhak untuk membatalkan transaksi yang
                   dimaksud. Tidak ada klaim atau tuntutan yang dapat diajukan
                   oleh Pengguna terkait pembatalan transaksi tersebut.
                 </li>
                 <li>
                   Dalam kesepakatan ini, Pembeli harus menjaga kerahasiaan bukti
                   pembayaran dan/atau informasi pembayaran, tidak
-                  mengungkapkannya kepada pihak lain selain WebProTech. Jika
+                  mengungkapkannya kepada pihak lain selain Digi Web Creative. Jika
                   terjadi kerugian akibat Pembeli memberikan informasi tersebut
                   kepada pihak lain, segala tanggung jawab akan ditanggung oleh
                   Pembeli.
@@ -236,7 +236,7 @@ const SyaratKetentuanPage = () => {
                 <li>
                   Pembeli dengan penuh kesadaran dan persetujuan mengakui bahwa
                   invoice yang diterbitkan memiliki kepemilikan atas nama
-                  WebProTech.
+                  Digi Web Creative.
                 </li>
               </ol>
             </Col>

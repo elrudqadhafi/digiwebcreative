@@ -113,7 +113,7 @@ const HomePage = () => {
         <div className="info-panel m-auto">
           <Container>
             <Row>
-              <Col lg="4" md="6">
+              <Col lg="4" md="6" className="m-md-auto mt-md-5 mt-lg-0 mt-3">
                 <img src={DesignImg} alt="designimage-freepik" loading="lazy" />
                 <h4>Profesional Design</h4>
                 <p>
@@ -121,7 +121,7 @@ const HomePage = () => {
                   Kredibilitas bisnis Anda dan kepercayaan pengunjung.
                 </p>
               </Col>
-              <Col lg="4" md="6">
+              <Col lg="4" md="6" className="m-md-auto mt-md-5 mt-lg-0 mt-3">
                 <img
                   src={FastLoadingImg}
                   alt="fastloadingimage-freepik"
@@ -134,7 +134,7 @@ const HomePage = () => {
                   pengunjung.
                 </p>
               </Col>
-              <Col lg="4" md="6" className="m-md-auto mt-md-5">
+              <Col lg="4" md="6" className="m-md-auto mt-md-5 mt-lg-0 mt-3">
                 <img
                   src={FullSupportImg}
                   alt="supportimage-freepik"
@@ -597,8 +597,7 @@ const HomePage = () => {
               <h3 className="text-center">Benefit Yang Kamu Dapat...</h3>
               <p className="text-center mt-2 mb-5">
                 Nah, Kamu pasti bertanya-tanya apa saja yang akan Kamu dapatkan
-                ketika memilih Web-Pro Tech sebagai partner digitalmu.Yuk kita
-                lihat!
+                ketika memilih <span>DIGIWEBCREATIVE</span> sebagai partner digitalmu.Yuk kita lihat!
               </p>
             </Row>
             <Row>

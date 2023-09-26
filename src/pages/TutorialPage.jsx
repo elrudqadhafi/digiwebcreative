@@ -21,7 +21,7 @@ const TutorialPage = () => {
       <ScrollToTop />
       <div className="tutorial">
         <Helmet>
-          <title>Tutorial - Web Pro Tech</title>
+          <title>Tutorial - Digi Web Creative</title>
         </Helmet>
         <Container>
           <Row className="d-flex align-items-center">
@@ -29,11 +29,9 @@ const TutorialPage = () => {
               <img src={TutorImg} alt="tutorial-image" loading="lazy" />
             </Col>
             <Col lg="6">
-              <h1>Tutorial Web-Pro Tech</h1>
-              <h6>
-                Masih bingung cara menggunakan Web-Pro Tech? <br /> Yuk baca
-                langkah-langkahnya dibawah ini!
-              </h6>
+              <h1>Tutorial Digi Web Creative</h1>
+              <h6>Masih bingung cara menggunakan Digi Web Creative</h6>
+              <h6>Yuk Baca Langkah-Langkah Dibawah Ini!</h6>
             </Col>
           </Row>
         </Container>

@@ -186,7 +186,7 @@ export const benefit = [
     id: 6,
     image: SosmedImg,
     title: "Integrasi Sosial Media",
-    desc: "Mengintegrasikan platform media sosial untuk meningkatkan keterlibatan, jangkauan dan interaksi dengan pelanggan.",
+    desc: "Mengintegrasikan platform media sosial untuk meningkatkan keterlibatan,dan interaksi dengan pelanggan.",
   },
 ]
 

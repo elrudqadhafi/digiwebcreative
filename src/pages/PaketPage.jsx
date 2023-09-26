@@ -35,7 +35,7 @@ const PaketPage = () => {
       <ScrollToTop />
       <div className="paket-page">
         <Helmet>
-          <title>Paket Website - Web Pro Tech</title>
+          <title>Paket Website - Digi Web Creative</title>
         </Helmet>
         <Container>
           <Row>
@@ -84,7 +84,7 @@ const PaketPage = () => {
               )
             })}
           </Row>
-          <Row>
+          <Row className="mt-5 pt-3">
             <Col>
               <h3>Paket Premium</h3>
             </Col>
@@ -178,7 +178,7 @@ const PaketPage = () => {
                     </li>
                     <li>
                       <i className="ri-checkbox-circle-line"></i>
-                      Pemeliharaan Kecepatan Website
+                      Pemeliharaan Website
                     </li>
                     <li>
                       <i className="ri-checkbox-circle-line"></i>
@@ -222,8 +222,7 @@ const PaketPage = () => {
           <Row>
             <Col>
               <h4>
-                Bagaimana perbandingan harga pembuatan website di Web Pro Tech
-                dengan penyedia jasa lainnya?
+                Bagaimana perbandingan harga pembuatan website di Digi Web Creative dengan penyedia jasa lainnya?
               </h4>
               <p>
                 Saat Anda mencari jasa pembuatan website di Google, Anda akan
@@ -231,7 +230,7 @@ const PaketPage = () => {
                 yang beragam.
               </p>
               <p>
-                Web Pro Tech mungkin bukanlah pilihan termurah, tetapi kami
+                Digi Web Creative mungkin bukanlah pilihan termurah, tetapi kami
                 menjamin bahwa Anda akan mendapatkan nilai yang terbaik dari
                 investasi Anda.
               </p>

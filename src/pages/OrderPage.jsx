@@ -46,17 +46,15 @@ const OrderPage = () => {
     const nama = formData.fullName
     const harga = paket
       ? paket.price.toLocaleString("id-ID", {
-          style: "currency",
-          currency: "IDR",
-          minimumFractionDigits: 0,
-          maximumFractionDigits: 0,
-        })
+        style: "currency",
+        currency: "IDR",
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0,
+      })
       : ""
-    const pesan = `Halo, saya tertarik dengan paket ${
-      paket ? paket.title : "Paket"
-    } seharga ${harga}. Nama: ${nama}, HP: ${formData.phoneNumber}, Email: ${
-      formData.email
-    }, Alamat: ${formData.address}`
+    const pesan = `Halo, saya tertarik dengan paket ${paket ? paket.title : "Paket"
+      } seharga ${harga}. Nama: ${nama}, HP: ${formData.phoneNumber}, Email: ${formData.email
+      }, Alamat: ${formData.address}`
 
     // Membuat URL WhatsApp dengan data yang diisi
     const urlWhatsApp = `https://api.whatsapp.com/send?phone=${nomorWhatsApp}&text=${encodeURIComponent(
@@ -73,7 +71,7 @@ const OrderPage = () => {
       <ScrollToTop />
       <div className="order-page w-100 min-vh-100">
         <Helmet>
-          <title>Order - Web Pro Tech</title>
+          <title>Order - Digi Web Creative</title>
         </Helmet>
         <Container>
           <Row>

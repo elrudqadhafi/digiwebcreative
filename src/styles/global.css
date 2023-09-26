@@ -127,17 +127,11 @@ body {
   }
 }
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 361px) {
   .navbar .navbar-brand {
-    font-size: 1.5rem;
-  }
-
-  .navbar .navbar-brand img {
-    width: 50px;
-  }
-
-  .konsultasi {
-    margin-bottom: 10px;
+    font-size: 1.3rem;
+    padding: 10px;
+    padding-left: 5px;
   }
 }
 
@@ -196,6 +190,14 @@ body {
   .dark-mode label .ri-sun-line,
   .dark-mode label .ri-moon-line {
     font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 361px) {
+
+  .dark-mode label .ri-sun-line,
+  .dark-mode label .ri-moon-line {
+    font-size: 23px;
   }
 }
 
@@ -359,6 +361,10 @@ body {
 }
 
 @media screen and (max-width: 376px) {
+  .homepage .header-box {
+    padding: 5px;
+  }
+
   .homepage .header-box .konsultasi {
     padding: 10px 25px;
   }
@@ -397,6 +403,17 @@ body {
 }
 
 @media screen and (max-width: 450px) {
+  .homepage .info-panel {
+    padding: 10px;
+  }
+
+  .homepage .info-panel img {
+    width: 50px;
+    padding-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 4361px) {
   .homepage .info-panel {
     padding: 10px;
   }
@@ -711,6 +728,7 @@ body {
   font-size: 1rem;
   padding-top: 70px;
   line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .homepage .penjelasan-dua hr {
@@ -869,12 +887,20 @@ body {
 }
 
 @media screen and (max-width: 391px) {
+  .homepage .penjelasan-dua .row:nth-child(3) {
+    padding: 30px 0;
+  }
+
   .homepage .penjelasan-empat .row:nth-child(1) h3 {
     font-size: 1.5rem;
   }
 }
 
 @media screen and (max-width: 365px) {
+  .homepage .penjelasan {
+    padding: 5px;
+  }
+
   .homepage .penjelasan .row:nth-child(1) h3 {
     font-size: 1.7rem;
   }
@@ -889,6 +915,15 @@ body {
 
   .homepage .penjelasan-empat .row:nth-child(1) h3 {
     font-size: 1.5rem;
+  }
+
+  .homepage .penjelasan-dua .row:nth-child(3) {
+    padding: 30px 5px;
+  }
+
+  .homepage .penjelasan-dua .row:nth-child(3) h4,
+  .homepage .penjelasan-dua .row:nth-child(3) h5 {
+    text-align: left;
   }
 }
 
@@ -978,6 +1013,12 @@ body {
   }
 }
 
+@media screen and (max-width: 361px) {
+  .homepage .layanan-kami {
+    padding: 5px;
+  }
+}
+
 /* STYLE HOMEPAGE LAYANAN-KAMI */
 
 /* STYLE HOMEPAGE BENEFIT */
@@ -1001,6 +1042,11 @@ body {
 .homepage .benefit .row:nth-child(1) p,
 .homepage .benefit .row:nth-child(3) p {
   color: var(--text-color);
+}
+
+.homepage .benefit .row:nth-child(1) p span {
+  color: #0c79f6;
+  font-weight: 500;
 }
 
 .benefit .benefit-box {
@@ -1035,6 +1081,7 @@ body {
   font-weight: 300;
 }
 
+
 @media screen and (max-width: 450px) {
   .homepage .benefit {
     padding: 10px;
@@ -1045,9 +1092,15 @@ body {
   }
 }
 
+@media screen and (max-width: 391px) {
+  .homepage .benefit .row:nth-child(1) h3 {
+    font-size: 1.5rem;
+  }
+}
+
 @media screen and (max-width: 376px) {
   .homepage .benefit {
-    padding: 10px;
+    padding: 5px;
   }
 
   .homepage .benefit .row:nth-child(1) h3 {
@@ -1148,27 +1201,32 @@ footer {
   border-top: 0.5px solid #c3c3c33c;
 }
 
-footer .footer-logo {
+/* footer .footer-logo {
   display: flex;
   align-items: center;
+} */
+
+footer h2 {
+  font-size: 1.6rem;
+  color: var(--text-color);
+  font-family: 'PT Serif', serif;
+  padding-left: 70px;
+  padding-bottom: 20px;
+}
+
+footer h2 span {
+  font-size: 1.6rem;
+  color: #0c79f6;
+  font-family: 'PT Serif', serif;
 }
 
 footer .row:nth-child(1) h3 {
   color: var(--text-color);
   font-size: 1rem;
   padding-top: 20px;
-  padding-left: 70px;
   padding-bottom: 15px;
-}
-
-footer .footer-logo img {
-  width: 70px;
-  padding-bottom: 22px;
-}
-
-footer h2 {
-  font-size: 1.8rem;
-  color: var(--text-color);
+  padding-left: 70px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 footer p {
@@ -1176,6 +1234,7 @@ footer p {
   font-weight: 400;
   padding-left: 70px;
   width: 500px;
+  font-weight: 400;
 }
 
 footer .alamat,
@@ -1187,6 +1246,7 @@ footer .alamat-pt p,
 footer .alamat p {
   padding-left: 0;
   padding-top: 4px;
+  font-weight: 300;
 }
 
 footer .alamat i,
@@ -1194,7 +1254,7 @@ footer .alamat-pt i {
   padding-left: 70px;
   padding-right: 10px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   color: #0c79f6;
 }
 
@@ -1207,7 +1267,7 @@ footer .row:nth-child(1) .garis-1 {
 
 footer li {
   list-style: none;
-  padding-top: 10px;
+  padding-top: 1px;
 }
 
 footer li a:hover {
@@ -1217,6 +1277,7 @@ footer li a:hover {
 footer h5 {
   color: var(--text-color);
   padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 footer li a {
@@ -1261,6 +1322,11 @@ footer .row:nth-child(2) h4 {
   color: var(--text-color);
 }
 
+footer .row:nth-child(2) h4 span {
+  color: #0c79f6;
+  font-family: 'PT Serif', serif;
+}
+
 /* RESPONSIVE FOOTER */
 @media screen and (max-width: 992px) {
   footer h2 {
@@ -1282,9 +1348,47 @@ footer .row:nth-child(2) h4 {
   }
 }
 
+@media screen and (max-width: 450px) {
+  footer h2 {
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+  }
+
+  footer h2 span {
+    font-size: 1.3rem;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+
+  footer .row:nth-child(1) h3 {
+    font-size: 14px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   footer .row:nth-child(1) h3 {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  footer h2 {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+  }
+
+  footer h2 span {
+    font-size: 1.2rem;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+
+  footer .row:nth-child(1) h3 {
+    font-size: 12px;
   }
 }
 
@@ -1304,6 +1408,7 @@ footer .row:nth-child(2) h4 {
   font-size: 2.2rem;
   font-weight: 500;
   color: var(--text-color);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .paket-page .plan-card {
@@ -1316,6 +1421,7 @@ footer .row:nth-child(2) h4 {
 
 .paket-page .plan-card h4 {
   color: var(--text-color);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .paket-page .plan-card .desc {
@@ -1421,7 +1527,7 @@ footer .row:nth-child(2) h4 {
   color: var(--text-color);
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 .paket-page .container:nth-child(3) p {
@@ -1446,6 +1552,17 @@ footer .row:nth-child(2) h4 {
 }
 
 @media screen and (max-width: 450px) {
+  .paket-page {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .paket-page h3 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 1.9rem;
+  }
+
   .paket-page .container:nth-child(2) .col:nth-child(1) {
     padding: 25px;
   }
@@ -1455,12 +1572,16 @@ footer .row:nth-child(2) h4 {
   }
 
   .paket-page .container:nth-child(3) h4 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .paket-page {
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
-  .paket-page .container:nth-child(2) .row:nth-child(1) button {
-    margin: 0;
-  }
 }
 
 /* STYLE PAKETPAGE */
@@ -1483,6 +1604,10 @@ footer .row:nth-child(2) h4 {
   border-radius: 8px;
 }
 
+.order-page .full-data .text-content h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .order-page .row:nth-child(2) .ringkasan {
   padding: 20px;
   border-radius: 8px;
@@ -1502,6 +1627,7 @@ footer .row:nth-child(2) h4 {
   color: var(--text-color);
   padding-bottom: 10px;
   padding-left: 4px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .order-page .ringkasan h5 {
@@ -1526,6 +1652,10 @@ footer .row:nth-child(2) h4 {
   background-color: var(--abu-color);
   padding: 30px;
   border-radius: 8px;
+}
+
+.order-page .form-data h4 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .order-page .row:nth-child(1) h3 {
@@ -1659,6 +1789,7 @@ input::placeholder {
   color: var(--text-color);
   text-align: center;
   background-color: var(--other-color);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .about-page h5 {
@@ -1666,6 +1797,7 @@ input::placeholder {
   font-weight: 500;
   font-size: 1.3rem;
   padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .about-page p {
@@ -1678,6 +1810,10 @@ input::placeholder {
 .about-page p span {
   color: var(--text-color);
   font-weight: 400;
+}
+
+.about-page .row:nth-child(3) h4 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .about-page .row:nth-child(3) {
@@ -1725,10 +1861,12 @@ input::placeholder {
   text-align: center;
   font-weight: 600;
   font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .about-page .row:nth-child(4) h6 span {
   color: #0c79f6;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .about-page .row:nth-child(4) p {
@@ -1759,6 +1897,7 @@ input::placeholder {
   font-size: 1.1rem;
   font-weight: 500;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .about-page .about-card h6 {
@@ -1799,6 +1938,7 @@ input::placeholder {
   padding-top: 48px;
   padding-bottom: 30px;
   font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .faq .accordion .accordion-button {
@@ -1834,6 +1974,7 @@ input::placeholder {
   font-weight: 500;
   letter-spacing: 1px;
   color: var(--text-color);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .faq-page h6 {
@@ -1871,6 +2012,7 @@ input::placeholder {
 .tutorial h1 {
   font-weight: 500;
   color: var(--text-color);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .tutorial h6 {
@@ -1884,12 +2026,8 @@ input::placeholder {
   margin: auto;
 }
 
-.tutorial .row:nth-child(1) h3 {
-  color: var(--text-color);
-}
-
 .tutorial .container:nth-child(2) {
-  padding-top: 120px;
+  padding-top: 150px;
   padding-bottom: 50px;
 }
 
@@ -1917,6 +2055,7 @@ input::placeholder {
   justify-content: space-between;
   padding: 20px;
   font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .tutorial p {
@@ -1951,6 +2090,19 @@ input::placeholder {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .tutorial h1 {
+    font-size: 1.5rem;
+  }
+
+  .tutorial h6 {
+    font-weight: 300;
+    color: var(--text-color);
+    font-size: 0.85rem;
+  }
+
+}
+
 /* STYLE TUTORIAL */
 
 /* STYLE SYARAT KETENTUAN PAGE */
@@ -1968,11 +2120,13 @@ input::placeholder {
   font-weight: 500;
   color: var(--text-color);
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .syarat-ketentuan h6 {
   color: var(--text-color);
   font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .syarat-ketentuan ul {
@@ -1996,12 +2150,19 @@ input::placeholder {
   font-weight: 400;
   list-style: none;
   color: var(--text-color);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .syarat-ketentuan p {
   color: var(--text-color);
   font-weight: 300;
   padding-top: 10px;
+}
+
+@media screen and (max-width: 450px) {
+  .syarat-ketentuan .row:nth-child(1) h3 {
+    font-size: 1.7rem;
+  }
 }
 
 /* STYLE SYARAT KETENTUAN PAGE */
@@ -2073,3 +2234,6 @@ input::placeholder {
 }
 
 /* STYLE ERROR PAGE */
+
+/* STYLE BLOG PAGE START */
+/* STYLE BLOG PAGE END */

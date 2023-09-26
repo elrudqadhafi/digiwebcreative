@@ -17,7 +17,7 @@ const FaqPage = () => {
       <ScrollToTop />
       <div className="faq-page">
         <Helmet>
-          <title>Temukan Pertanyaanmu Disini - Web Pro Tech</title>
+          <title>Temukan Pertanyaanmu Disini - Digi Web Creative</title>
         </Helmet>
         <Container>
           <Row className="d-flex align-items-center">

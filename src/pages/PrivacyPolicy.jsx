@@ -12,12 +12,12 @@ const PrivacyPolicy = () => {
       <ScrollToTop />
       <div className="privacy-policy w-100 min-vh-100">
         <Helmet>
-          <title>Kebijakan Privasi - Web Pro Tech</title>
+          <title>Kebijakan Privasi - Digi Web Creative</title>
         </Helmet>
         <Container>
           <Row>
             <Col>
-              <h3>Privacy Policy</h3>
+              <h3>Kebijakan Privasi</h3>
               <p className="mt-4">
                 Dengan memilih untuk menggunakan Layanan kami, Anda secara
                 otomatis memberikan persetujuan untuk pengumpulan dan penggunaan

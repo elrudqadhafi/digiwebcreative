@@ -10,9 +10,8 @@ const FooterComponent = () => {
       <Row>
         <Col lg="5" xs="12">
           <div className="footer-logo">
-            <img src={FooterImg} alt="logo-footer" />
             <h2>
-              Web<span>Pro</span>Tech
+              DIGI<span>WEB</span>CREATIVE
             </h2>
           </div>
           <p>
@@ -75,7 +74,7 @@ const FooterComponent = () => {
           </h6>
           <h6>
             <i className="ri-mail-line"></i>
-            wepprotech@gmail.com
+            admin@digiwebcreative.com
           </h6>
           <div className="sosial">
             <i className="ri-linkedin-box-fill"></i>
@@ -88,8 +87,8 @@ const FooterComponent = () => {
         <Col>
           <h4>
             &copy; {new Date().getFullYear()}{" "}
-            <span className="fw-bold" style={{ color: "#0c79f6" }}>
-              Web-Pro Tech{" "}
+            <span>
+              DIGIWEBCREATIVE{" "}
             </span>
             || All rights reserved
           </h4>

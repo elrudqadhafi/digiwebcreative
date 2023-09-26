@@ -12,7 +12,7 @@ const AboutPage = () => {
       <ScrollToTop />
       <div className="about-page w-100">
         <Helmet>
-          <title>Tentang Kami - Web Pro Tech</title>
+          <title>Tentang Kami - Digi Web Creative</title>
         </Helmet>
         <Row>
           <Col>
@@ -22,9 +22,9 @@ const AboutPage = () => {
         <Container>
           <Row>
             <Col>
-              <h5>Selamat Datang di Web Pro Tech</h5>
+              <h5>Selamat Datang di Digi Web Creative.</h5>
               <p className="mt-4">
-                <span>WEB PRO TECH</span> sebagai salah satu yang terkemuka
+                <span>DIGI WEB CREATIVE</span> sebagai salah satu yang terkemuka
                 dalam industri pembuatan website,Tugas utama kami adalah
                 menyediakan layanan terdepan dalam pembuatan website yang
                 mendefinisikan kualitas dan keunggulan serta responsif terhadap
@@ -34,32 +34,6 @@ const AboutPage = () => {
                 dihadapi masyarakat. Setiap masalah dianggap sebagai peluang
                 untuk menciptakan perubahan positif dalam kehidupan semua orang.
               </p>
-              <div>
-                <p className="mt-4">
-                  <span>Web Pro Tech</span> adalah sebuah perpaduan harmonis
-                  antara kata-kata yang memiliki makna mendalam.
-                </p>
-                <ul className="mt-3" type="circle">
-                  <li>
-                    <span>Web : </span>
-                    mewakili dunia online yang terbentang luas, tempat di mana
-                    ide dan informasi berkumpul dalam bentuk website.
-                  </li>
-                  <li className="mt-2">
-                    <span>Pro : </span> menggambarkan tingkat keahlian tertinggi
-                    dan dedikasi tanpa kompromi untuk memberikan yang terbaik.
-                  </li>
-                  <li className="mt-2">
-                    <span>Tech : </span> mewakili teknologi modern yang menjadi
-                    fondasi bagi segala pencapaian dalam dunia digital.
-                  </li>
-                </ul>
-                <p>
-                  Jadi, Web Pro Tech adalah penyelarasan yang indah antara
-                  penguasaan dalam teknologi informasi terbaik untuk menciptakan
-                  solusi online yang unggul dan luar biasa.
-                </p>
-              </div>
             </Col>
           </Row>
           <Row>
