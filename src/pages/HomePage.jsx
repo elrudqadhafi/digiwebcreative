@@ -68,7 +68,7 @@ const HomePage = () => {
             name="description"
             content="Kami adalah penyedia layanan pembuatan website profesional di Pekanbaru. Dapatkan website modern, responsif, dan berkualitas tinggi untuk bisnis Anda. Hubungi kami untuk solusi digital terbaik."
           />
-          <meta rel="canonical" href="https://jasawebsitepekanbaru.site/" />
+          <link rel="canonical" href="https://jasawebsitepekanbaru.site/" />
           <meta
             name="keywords"
             content="jasa website, jasawebsitepekanbaru, jasa pembuatan website, jasa pembuatan website pekanbaru, jasa web"
