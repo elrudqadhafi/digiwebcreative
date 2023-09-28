@@ -4,8 +4,6 @@ import { NavLink } from "react-router-dom"
 import { navLinks } from "../data"
 import DarkModeComponent from "./DarkModeComponent"
 
-import NavImg from "../assets/logonav.png"
-
 const NavbarComponent = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
 
@@ -27,8 +25,7 @@ const NavbarComponent = () => {
     <Navbar expand="lg" className="position-fixed top-0 " expanded={navbarOpen}>
       <Container>
         <Navbar.Brand>
-          {/* <img src={NavImg} alt="" /> */}
-          DIGI<span>WEB</span>CREATIVE
+          DIGI<span>WEBCREATIVE</span>
         </Navbar.Brand>
         <DarkModeComponent />
         <Navbar.Toggle
